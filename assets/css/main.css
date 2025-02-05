@@ -1301,6 +1301,13 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
+	iframe {
+		border: none;
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}	
+
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
