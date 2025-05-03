@@ -6,6 +6,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<style>
+		.gallery-grid {
+		  display: grid;
+		  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		  gap: 16px;
+		  margin: 2em 0;
+		}
+	  
+		.gallery-grid img {
+		  width: 100%;
+		  height: auto;
+		  border-radius: 8px;
+		  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+		  transition: transform 0.3s ease;
+		}
+	  
+		.gallery-grid img:hover {
+		  transform: scale(1.03);
+		}
+	  </style>
+	  
 	<body class="single is-preload">
 
 		<!-- Wrapper -->
@@ -93,24 +114,28 @@
 									<a href="#" class="author"><span class="name">Gloria Finch</span><img src="images/Pg1307.jpg" alt="" /></a>
 								</div>
 							</header>
-							<span class="image featured"><img src="images/pic01.jpg" alt="Crime scene photo of the 2000 bake sale event" /></span>
+							<span class="image featured"><img src="images/Pg1307.jpg" alt="Crime scene photo of the 2000 bake sale event" /></span>
+							<!-- Gallery Grid -->
+							<div class="gallery-container">
+								<div class="gallery-grid">
+								  <!-- your images here -->
+								   <img src="images/Pg1307.jpg" alt="Photo 1" />
+									<img src="images/Pg2308.jpg" alt="Photo 2" />
+									<img src="images/Pg3309.jpg" alt="Photo 3" />
+									<img src="images/Pg4310.jpg" alt="Photo 4" />
+									<img src="images/Pg5311.jpg" alt="Photo 5" />
+									<img src="images/Pg6312.jpg" alt="Photo 6" />
+									<img src="images/Pg7313.jpg" alt="Photo 7" />
+									<img src="images/Pg8314.jpg" alt="Photo 8" />
+									<!-- Add more images here -->
+								</div>
+							</div>
 							<p>It’s been a quarter-century since a seemingly innocent bake sale at Fairgrove Elementary turned into a medical mystery that stunned the nation. 43 attendees were hospitalized after consuming brownies tainted with an unknown toxin. No one has ever been charged.</p>
 							<p>“It felt like a normal day,” recalls Leslie Chang, then a third grader. “I bought a cookie, then the room just started spinning.”</p>
 							<p>Despite dozens of interviews, a forensic investigation, and national media attention at the time, the case remains officially open. The FBI concluded the contamination was deliberate, yet no conclusive suspect has been identified.</p>
 							<p>Local folklore now surrounds the incident. Some blame a disgruntled lunch staffer. Others claim it was part of a secret government experiment. Most chilling is the anonymous note found at the scene, which simply read: “Sweet revenge is best served baked.”</p>
 							<p>New efforts by independent podcasters and amateur sleuths have reignited interest. The Fairgrove Historical Society recently digitized old police files, hoping modern tech might uncover a long-buried clue.</p>
-							<!-- Gallery Grid -->
-							<div class="gallery-grid">
-								<img src="images/Pg1307.jpg" alt="Photo 1" />
-								<img src="images/Pg2308.jpg" alt="Photo 2" />
-								<img src="images/Pg3309.jpg" alt="Photo 3" />
-								<img src="images/Pg4310.jpg" alt="Photo 4" />
-								<img src="images/Pg5311.jpg" alt="Photo 5" />
-								<img src="images/Pg6312.jpg" alt="Photo 6" />
-								<img src="images/Pg7313.jpg" alt="Photo 7" />
-								<img src="images/Pg8314.jpg" alt="Photo 8" />
-								<!-- Add more images here -->
-							</div>
+							
 							<footer>
 								<ul class="stats">
 									<li><a href="#">Cold Cases</a></li>
