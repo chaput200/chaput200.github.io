@@ -218,7 +218,8 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		/*font-size: 1.1em;*/
+		font-size: 2em; /* You can increase this value as needed */
 	}
 
 	h3 {
